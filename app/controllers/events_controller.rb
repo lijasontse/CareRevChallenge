@@ -17,7 +17,7 @@ class EventsController < ApplicationController
       WHERE created_at::date = current_date
         and char_length(event_type) >= 1
       GROUP BY event_type
-      ORDER BY cnt DESCgit init
+      ORDER BY cnt DESC
     ")
     
     todays_stats = []
