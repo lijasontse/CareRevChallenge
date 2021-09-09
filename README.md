@@ -1,5 +1,7 @@
 # CareRev Event Receiving App
 
+The application is hosted at https://jli-care-rev-challenge.herokuapp.com/.
+
 This is my Event Receiving App coding challenge from CareRev! The stack uses Ruby and Ruby on Rails. 
 
 The directions are as follows: Build an app that has an endpoint to receive POSTed JSON blobs. The JSON blob contains infromation to represent a “user event” that happens on some client app (EG: a web app or a native mobile app). 
